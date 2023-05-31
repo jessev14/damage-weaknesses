@@ -1,0 +1,10 @@
+<label>Damage Weaknesses</label>
+<a class="trait-selector" data-trait="di"
+    data-tooltip="Configure Damage Weaknesses" tabindex="0">
+    <i class="fas fa-edit"></i>
+</a>
+<ul class="traits-list">
+    {{#each traits.dw.selected as |v k|}}
+    <li class="tag {{k}}">{{v}}</li>
+    {{/each}}
+</ul>
